@@ -1,19 +1,24 @@
-import React from 'react'
-import { Row, Col, Tabs, Tab, TabContainer, TabContent, Nav} from 'react-bootstrap'
+import {React,useState,useEffect} from 'react'
+import { Row, Col,  Tab, Nav} from 'react-bootstrap'
 import Characters from './Characters'
 import Planets from './Planets'
+import Loader from './Loader'
 
 
 
 const TabsNav = () => {
 
-  // const handleSelect = eventKey => {
-  //   eventKey === 1 ? <Planets /> : <Characters />
-  // }
+  const [loading, setLoading] = useState(true);
+
+  useEffect(()=> {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000)}, [])
 
   return (
     <>
-      <Tab.Container id="left-tabs-example" defaultActiveKey="planets">
+      {loading && <Loader />}
+      {!loading && <Tab.Container id="left-tabs-example" defaultActiveKey="planets">
         <Row>
           <Col sm={12}>
             <Nav variant="pills">
@@ -36,7 +41,7 @@ const TabsNav = () => {
             </Tab.Content>
           </Col>
         </Row>
-      </Tab.Container>
+      </Tab.Container>}
     </>
   )
 }

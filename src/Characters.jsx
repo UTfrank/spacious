@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 import character1 from "./assets/characters/character-1.png";
 import character2 from "./assets/characters/character-2.png";
 import character3 from "./assets/characters/character-3.png";
@@ -13,6 +13,7 @@ import character10 from "./assets/characters/character-10.png";
 import character11 from "./assets/characters/character-11.png";
 import character12 from "./assets/characters/character-12.png";
 import Character from "./Character";
+import AddCharacter from "./AddCharacter";
 
 const Characters = () => {
   const allCharacters = [
@@ -22,6 +23,35 @@ const Characters = () => {
       friends: 194,
       imgUrl: character1,
       id: 1,
+      description:
+        "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+      char: [
+        {
+          name: "Dariene Robertson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+        {
+          name: "Kathryn Robertson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+        {
+          name: "Murphy Wilson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+        {
+          name: "Ariene Jack",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+        {
+          name: "Bessie McCoy",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+      ],
     },
     {
       name: "Jane Dame",
@@ -29,6 +59,35 @@ const Characters = () => {
       friends: 200,
       imgUrl: character2,
       id: 2,
+      description:
+        "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+      char: [
+        {
+          name: "Dariene Robertson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+        {
+          name: "Kathryn Robertson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+        {
+          name: "Murphy Wilson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+        {
+          name: "Ariene Jack",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+        {
+          name: "Bessie McCoy",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+      ],
     },
     {
       name: "Mario Mark",
@@ -36,6 +95,35 @@ const Characters = () => {
       friends: 304,
       imgUrl: character3,
       id: 3,
+      description:
+        "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+      char: [
+        {
+          name: "Dariene Robertson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+        {
+          name: "Kathryn Robertson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+        {
+          name: "Murphy Wilson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+        {
+          name: "Ariene Jack",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+        {
+          name: "Bessie McCoy",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+      ],
     },
     {
       name: "Tom Holland",
@@ -43,6 +131,35 @@ const Characters = () => {
       friends: 406,
       imgUrl: character4,
       id: 4,
+      description:
+        "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+      char: [
+        {
+          name: "Dariene Robertson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+        {
+          name: "Kathryn Robertson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+        {
+          name: "Murphy Wilson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+        {
+          name: "Ariene Jack",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+        {
+          name: "Bessie McCoy",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+      ],
     },
     {
       name: "Brick Lace",
@@ -50,6 +167,35 @@ const Characters = () => {
       friends: 500,
       imgUrl: character5,
       id: 5,
+      description:
+        "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+      char: [
+        {
+          name: "Dariene Robertson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+        {
+          name: "Kathryn Robertson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+        {
+          name: "Murphy Wilson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+        {
+          name: "Ariene Jack",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+        {
+          name: "Bessie McCoy",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+      ],
     },
     {
       name: "Clark Ville",
@@ -57,6 +203,35 @@ const Characters = () => {
       friends: 601,
       imgUrl: character6,
       id: 6,
+      description:
+        "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+      char: [
+        {
+          name: "Dariene Robertson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+        {
+          name: "Kathryn Robertson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+        {
+          name: "Murphy Wilson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+        {
+          name: "Ariene Jack",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+        {
+          name: "Bessie McCoy",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+      ],
     },
     {
       name: "John DOe",
@@ -64,6 +239,35 @@ const Characters = () => {
       friends: 194,
       imgUrl: character7,
       id: 7,
+      description:
+        "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+      char: [
+        {
+          name: "Dariene Robertson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+        {
+          name: "Kathryn Robertson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+        {
+          name: "Murphy Wilson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+        {
+          name: "Ariene Jack",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+        {
+          name: "Bessie McCoy",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+      ],
     },
     {
       name: "Jane Dame",
@@ -71,6 +275,35 @@ const Characters = () => {
       friends: 200,
       imgUrl: character8,
       id: 8,
+      description:
+        "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+      char: [
+        {
+          name: "Dariene Robertson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+        {
+          name: "Kathryn Robertson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+        {
+          name: "Murphy Wilson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+        {
+          name: "Ariene Jack",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+        {
+          name: "Bessie McCoy",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+      ],
     },
     {
       name: "Mario Mark",
@@ -78,6 +311,35 @@ const Characters = () => {
       friends: 304,
       imgUrl: character9,
       id: 9,
+      description:
+        "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+      char: [
+        {
+          name: "Dariene Robertson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+        {
+          name: "Kathryn Robertson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+        {
+          name: "Murphy Wilson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+        {
+          name: "Ariene Jack",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+        {
+          name: "Bessie McCoy",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+      ],
     },
     {
       name: "Tom Holland",
@@ -85,6 +347,35 @@ const Characters = () => {
       friends: 406,
       imgUrl: character10,
       id: 10,
+      description:
+        "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+      char: [
+        {
+          name: "Dariene Robertson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+        {
+          name: "Kathryn Robertson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+        {
+          name: "Murphy Wilson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+        {
+          name: "Ariene Jack",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+        {
+          name: "Bessie McCoy",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+      ],
     },
     {
       name: "Brick Lace",
@@ -92,6 +383,35 @@ const Characters = () => {
       friends: 500,
       imgUrl: character11,
       id: 11,
+      description:
+        "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+      char: [
+        {
+          name: "Dariene Robertson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+        {
+          name: "Kathryn Robertson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+        {
+          name: "Murphy Wilson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+        {
+          name: "Ariene Jack",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+        {
+          name: "Bessie McCoy",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+      ],
     },
     {
       name: "Clark Ville",
@@ -99,16 +419,45 @@ const Characters = () => {
       friends: 601,
       imgUrl: character12,
       id: 12,
+      description:
+        "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+      char: [
+        {
+          name: "Dariene Robertson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+        {
+          name: "Kathryn Robertson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+        {
+          name: "Murphy Wilson",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+        {
+          name: "Ariene Jack",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdn",
+          img: character10,
+        },
+        {
+          name: "Bessie McCoy",
+          desc: "loremdkvnkdlvldvkdsvksdmsdpcsmcsd sdm kdnksdnvkldsvldsvnkdsvnsklvds,ksnkvnskvlsvvks",
+          img: character10,
+        },
+      ],
     },
   ];
 
   return (
     <>
       <Row className="justify-content-center">
-        {allCharacters.map((character) => (
-          <Character character={character} />
-        ))}
+        {allCharacters &&
+          allCharacters.map((character) => <Character character={character} />)}
       </Row>
+      <AddCharacter />
     </>
   );
 };
